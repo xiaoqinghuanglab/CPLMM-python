@@ -22,7 +22,10 @@ Clone the repository and install locally:
 
 ```bash
 git clone https://github.com/xiaoqinghuanglab/CPLMM-python.git
-cd cplmm
+cd CPLMM-python
+pip install .
+
+# For development (editable) install
 pip install -e .
 ```
 
