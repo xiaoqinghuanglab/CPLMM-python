@@ -21,7 +21,7 @@ It provides tools for preprocessing, change-point modeling (CPLMM), statistical 
 Clone the repository and install locally:
 
 ```bash
-git clone https://github.com/yourusername/cplmm.git
+git clone https://github.com/xiaoqinghuanglab/CPLMM-python.git
 cd cplmm
 pip install -e .
 ```
