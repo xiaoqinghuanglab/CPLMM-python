@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cplmm"
+version = "0.1.0"
+description = "A Python package for longitudinal proteomics and biomarker analysis"
+authors = [
+    { name = "Aatman Vasoya", email = "vasoya.aatman@gmail.com" }
+]
+license = { text = "MIT" }  # Or other license if applicable
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=1.4",
+    "numpy>=1.21",
+    "matplotlib>=3.5",
+    "seaborn>=0.11",
+    "statsmodels>=0.13",
+    "scipy>=1.7",
+    "lifelines>=0.27",
+    "scikit-learn>=1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/xiaoqinghuanglab/CPLMM-python"  
+Documentation = "https://github.com/xiaoqinghuanglab/CPLMM-python"
+Issues = "https://github.com/xiaoqinghuanglab/CPLMM-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cplmm*"]
